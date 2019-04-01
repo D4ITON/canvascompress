@@ -38,23 +38,23 @@
         <!-- propiedades -->
         <h2 class="mb-2" style="font-size: 13px; color: #B4B4B4; letter-spacing: 1px;">PROPIEDADES</h2>
         <label for="" style="font-size: 12px; color: #B4B4B4;">nombre:</label>
-        <input type="text" class="input-flat" name="" value="nature-3082832_1920_1532x153.png" style="font-size: 12px; color: #B4B4B4;">
+        <input type="text" class="input-flat" name="" value="nature-3082832_1920_1532x153.png" style="font-size: 12px; color: #666666;font-weight: 625;">
         <label for="" style="font-size: 12px; color: #B4B4B4;">peso:</label>
-        <h4 class="d-inline" style="font-size: 12px; color: #B4B4B4;">&nbsp; 153.54 KB </h4>
+        <h4 class="d-inline" style="font-size: 12px; color: #666666;">&nbsp; 153.54 KB </h4>
         <!-- control de imagen section -->
         <h2 class="my-3" style="font-size: 13px; color: #B4B4B4; letter-spacing: 1px;">CONTROL DE IMAGEN</h2>
         <div class="form-group">
-          <label for="rangoCALIDAD" style="font-size: 12px; color: #B4B4B4;">Calidad</label>
+          <label for="rangoCALIDAD" class="mb-0" style="font-size: 12px; color: #B4B4B4;">Calidad</label>
           <div class="row px-3">
             <input class="col-10 inputDiv" id="rangoCALIDAD" type="range" name="amountRangeQuality" min="0" max="100" value="0" oninput="this.form.amountInputQuality.value=this.value" />
 		        <input class="col-2" type="number" name="amountInputQuality" min="0" max="100" value="0" oninput="this.form.amountRangeQuality.value=this.value" />
           </div>
-          <label for="rangoWIDTH" style="font-size: 12px; color: #B4B4B4;">Ancho</label>
+          <label for="rangoWIDTH" class="mb-0" style="font-size: 12px; color: #B4B4B4;">Ancho</label>
           <div class="row px-3">
             <input class="col-10 inputDiv" id="rangoWIDTH" type="range" name="amountRangeWidth" min="0" max="100" value="0" oninput="this.form.amountInputWidth.value=this.value" />
 		        <input class="col-2" type="number" name="amountInputWidth" min="0" max="100" value="0" oninput="this.form.amountRangeWidth.value=this.value" />
           </div>
-          <label for="rangoWIDTH" style="font-size: 12px; color: #B4B4B4;">Alto</label>
+          <label for="rangoWIDTH" class="mb-0" style="font-size: 12px; color: #B4B4B4;">Alto</label>
           <div class="row px-3">
             <input class="col-10 inputDiv" id="rangoWIDTH" type="range" name="amountRangeHeight" min="0" max="100" value="0" oninput="this.form.amountInputHeight.value=this.value" />
 		        <input class="col-2" type="number" name="amountInputHeight" min="0" max="100" value="0" oninput="this.form.amountRangeHeight.value=this.value" />
@@ -65,7 +65,8 @@
         </div>
         <!-- pila de imagenes -->
         <h2 class="mb-3" style="font-size: 13px; color: #B4B4B4; letter-spacing: 1px;">PILA DE IMÁGENES</h2>
-        <div class="row my-2" style="font-size: 12px; color: #B4B4B4;">
+        <!-- iinicio item -->
+        <div class="row my-2" style="font-size: 12px; color: #666666;">
           <div class="col-8" >
             macbook606763_1920x453adfasdflaskdf.png
           </div>
@@ -76,6 +77,47 @@
             <i class="fa fa-trash" aria-hidden="true"></i>
           </div>
         </div>
+        <!-- fin de item -->
+        <!-- iinicio item -->
+        <div class="row my-2" style="font-size: 12px; color: #666666;">
+          <div class="col-8" >
+            macbook606763_1920x453adfasdflaskdf.png
+          </div>
+          <div class="col-3 px-1" style="z-index: 1; background-color: #F5F5F5;">
+            154.35 KB
+          </div>
+          <div class="1 px-0" style="z-index: 1;background-color: #F5F5F5;">
+            <i class="fa fa-trash" aria-hidden="true"></i>
+          </div>
+        </div>
+        <!-- fin de item -->
+        <!-- iinicio item -->
+        <div class="row my-2" style="font-size: 12px; color: #666666;">
+          <div class="col-8" >
+            macbook606763_1920x453adfasdflaskdf.png
+          </div>
+          <div class="col-3 px-1" style="z-index: 1; background-color: #F5F5F5;">
+            154.35 KB
+          </div>
+          <div class="1 px-0" style="z-index: 1;background-color: #F5F5F5;">
+            <i class="fa fa-trash" aria-hidden="true"></i>
+          </div>
+        </div>
+        <!-- fin de item -->
+        <!-- iinicio item -->
+        <div class="row my-2" style="font-size: 12px; color: #666666;">
+          <div class="col-8" >
+            macbook606763_1920x453adfasdflaskdf.png
+          </div>
+          <div class="col-3 px-1" style="z-index: 1; background-color: #F5F5F5;">
+            154.35 KB
+          </div>
+          <div class="1 px-0" style="z-index: 1;background-color: #F5F5F5;">
+            <i class="fa fa-trash" aria-hidden="true"></i>
+          </div>
+        </div>
+        <!-- fin de item -->
+
         <div class="text-center m-3">
           <button class="btn btn-canvascompress" type="submit" id="envioAxiosBtn">GUARGAR EN BD</button>
         </div>

@@ -91,7 +91,7 @@
 .inputDiv {
   width: 300px;
   display:block;
-  margin: 15px auto;
+  margin: 17px auto;
   color:#aaa;
   position:relative;
   padding: 0;
@@ -114,33 +114,33 @@ input[type='range']::-webkit-slider-thumb {
 }
 
 input[type=range]::-webkit-slider-thumb {
-  background-color: #777;
-  width: 20px;
-  height: 20px;
-  border: 3px solid #333;
+  background-color: #F5F5F5;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #333;
   border-radius: 50%;
-  margin-top: -9px;
+  margin-top: -7px;
 }
 
 input[type=range]::-moz-range-thumb {
-  background-color: #777;
+  background-color: #F5F5F5;
   width: 15px;
   height: 15px;
-  border: 3px solid #333;
+  border: 2px solid #333;
   border-radius: 50%;
 }
 
 input[type=range]::-ms-thumb {
-  background-color: #777;
-  width: 20px;
-  height: 20px;
-  border: 3px solid #333;
+  background-color: #F5F5F5;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #333;
   border-radius: 50%;
 }
 
 input[type=range]::-webkit-slider-runnable-track {
-  background-color: #777;
-  height: 3px;
+  background-color: #666666;
+  height: 2px;
 }
 
 input[type=range]:focus::-webkit-slider-runnable-track {
@@ -148,13 +148,13 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 }
 
 input[type=range]::-moz-range-track {
-  background-color: #777;
-  height: 3px;
+  background-color: #666666;
+  height: 2px;
 }
 
 input[type=range]::-ms-track {
-  background-color: #777;
-  height: 3px;
+  background-color: #666666;
+  height: 2px;
 }
 
 input[type=range]::-ms-fill-lower {
